@@ -1,0 +1,17 @@
+/* General styles */
+body {
+  margin: 0;
+  background-color: #121212;
+  font-family: 'Playfair Display', 'Georgia', serif;
+  color: #e0e0e0;
+}
+
+.performances-container {
+  max-width: 100%;
+  margin-top: 70px;
+  overflow-x: hidden;
+}
+
+.performances-container h2 {
+  padding-left: 30px;
+}
