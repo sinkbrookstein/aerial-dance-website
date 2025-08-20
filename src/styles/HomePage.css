@@ -235,12 +235,13 @@ body {
   color: #f0f0f0;
 }
 
-.hire-link {
+.hire-link a {
   font-size: 1.2rem;
   max-width: 700px;
   line-height: 4;
+  color: #d4af37;
 }
 
-.hire-link:hover {
-  color: #d4af37;
+.hire-link a:hover {
+  font-size: 1.21rem;
 }

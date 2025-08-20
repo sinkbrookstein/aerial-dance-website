@@ -72,7 +72,7 @@ function HireUsBlurb () {
     <li>✨ Immersive Ambient Performance</li>
     <li>✨ Feature Appearances in Shows & Production</li>
   </ul>
-  <a className="hire-link"><u>Hire us for your Corporate Function, Private Party, Wedding, or Event!</u></a>
+  <a className="hire-link"><Link to="/contact">Hire us for your Corporate Function, Private Party, Wedding, or Event!</Link></a>
 </div>
 }
 
