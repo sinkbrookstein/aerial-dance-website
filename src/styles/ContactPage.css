@@ -3,11 +3,65 @@ body {
   margin: 0;
   background-color: #121212;
   font-family: 'Playfair Display', 'Georgia', serif;
-  color: #e0e0e0;
+  color: #ccc;
 }
 
 .contact-container {
   max-width: 100%;
   margin-top: 70px;
   overflow-x: hidden;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.contact-container h2 {
+  color: #d4af37;
+}
+
+.contact-container h3 {
+  color: #d4af37;
+}
+
+.contact-container label {
+  font-size: 1.2rem;
+}
+
+form {
+  max-width: 700px;
+  width: 100%
+}
+
+form .input-box {
+  margin-top: 20px;
+}
+
+.input-box .field {
+  width: 100%
+}
+
+.field-message {
+  height: 200px;
+  resize: none;
+  width: 100%
+}
+
+.submit-button {
+  background-color: #d4af37; /* gold */
+  color: white;
+  font-size: 1.2rem;
+  font-family: 'Playfair Display', 'Georgia', serif;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  margin: 10px 0px;
+}
+
+.submit-button:hover {
+  background-color: #b9962d; /* darker gold on hover */
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
 }
