@@ -1,6 +1,7 @@
 import '../styles/AboutPage.css';
 import aboutImage from '../assets/meg-sling-popup.jpg';
 import cocoImage from '../assets/coco-promo.jpg';
+import Footer from "../components/Footer";
 
 const AboutPage = () => {
   return (
@@ -36,6 +37,7 @@ const AboutPage = () => {
           She moved to Denver in the summer of 2016 to spread her wings and feels extremely lucky to be surrounded by all the aerial opportunities in Colorado. She specializes in curating looks for costuming, teaching private parties and event planning.
         </p>
       </div>
+      <Footer/>
     </div>
   );
 };

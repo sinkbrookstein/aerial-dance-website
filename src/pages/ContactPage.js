@@ -1,5 +1,6 @@
 import '../styles/ContactPage.css';
 import Swal from 'sweetalert2'
+import Footer from "../components/Footer";
 import { useState } from 'react';
 
 const ContactPage = () => {
@@ -75,6 +76,7 @@ const ContactPage = () => {
         </div>
         <button className="submit-button" type="submit">Send Message</button>
       </form>
+      <Footer/>
     </div>
   );
 };

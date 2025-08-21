@@ -5,6 +5,7 @@ import slide1 from '../assets/alien-cube.JPG';
 import slide2 from '../assets/kim-silks-ambient.JPG';
 import slide3 from '../assets/business-lyra.jpg';
 import { Link } from 'react-router-dom';
+import Footer from "../components/Footer";
 
 const slides = [
   {
@@ -24,6 +25,7 @@ const HomePage = () => {
     <div className="home-container">
       <Slideshow/>
       <HireUsBlurb/>
+      <Footer/>
     </div>
   );
 };
