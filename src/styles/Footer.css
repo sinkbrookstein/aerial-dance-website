@@ -1,0 +1,20 @@
+.site-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  background-color: #181818;
+}
+
+.site-footer svg {
+  color: #ff10f0;
+}
+
+.follow-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5px;
+}
