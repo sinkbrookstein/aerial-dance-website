@@ -1,6 +1,6 @@
 import '../styles/AboutPage.css';
-import aboutImage from '../assets/meg-sling-popup.jpg';
-import cocoImage from '../assets/coco-promo.jpg';
+import aboutImage from '../assets/about-page-photo1.jpg';
+import cocoImage from '../assets/about-page-coco.jpg';
 import Footer from "../components/Footer";
 
 const AboutPage = () => {
