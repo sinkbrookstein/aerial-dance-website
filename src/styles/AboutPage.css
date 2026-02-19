@@ -63,3 +63,20 @@ body {
   border: 4px solid #d4af37;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+
+/* --- Mobile --- */
+@media (max-width: 768px) {
+    .about-us {
+        flex-direction: column;
+    }
+
+    .about-image {
+        align-self: center;
+        width: 75%
+    }
+
+    .coco-image {
+        width: 75%;
+    }
+}
